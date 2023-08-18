@@ -1,0 +1,320 @@
+.mini-nav{
+    height: 50px;
+    width: 100%;
+}
+.sec-main{
+    justify-content: space-between;
+}
+.location{
+    color: #AB7442;
+}
+.address a{
+    text-decoration: none;
+    color: black;
+    margin-left: 8px;
+    letter-spacing: .5px;
+    font-size: 15px;
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.address{
+    margin-left: 20px;
+    padding-top: 13px;
+    width: 230px;
+}
+.watch{
+    color: #AB7442;
+}
+.time{
+    margin-left: 20px;
+    padding-top: 13px;
+    width: 310px;
+}
+.time a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 8px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.phone{
+    color: #AB7442;
+}
+.contact{
+    margin-left: 220px;
+    padding-top: 15px;
+    width: 150px;
+    height: 50px;
+
+
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 15px;
+    margin-left: 8px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.icons{
+    margin-left: 50px;
+    padding-top: 9px; 
+    width:180px;
+ 
+    height: 50px;
+}
+.icons i{
+    color: #AB7442;
+    border: 0px solid rgb(227, 223, 223);
+    
+    background-color: white;
+    font-size: large;
+    padding: 9px;
+}
+
+  /* nav bar */
+  .navoo{
+    height: 90px;
+}
+.main-1st-section {
+    width: 50%;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 40px;
+    color: #AB7442;
+}
+
+/* links whole section nav  */
+
+#home-in-nav {
+    color: #AB7442;
+}
+
+.main-2nd-section {
+    width: 40%;
+    font-size: 17px;
+    margin-left: 20px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.main-2nd-section a:hover {
+    color: #AB7442 !important;
+}
+
+/* get quote sectiom */
+.main-3rd-section {
+    width: 20%;
+    background-color: #AB7442;
+    padding: 25px;
+    
+}
+
+.main-3rd-section a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-left: 22px;
+    
+}
+
+.main-3rd-section i {
+    margin-left: 9px;
+}
+
+/* banner */
+
+.banner{
+    position: relative;
+}
+.banner img{
+    filter: brightness(50%);
+}
+.banner-label{
+    position: absolute;
+    gap: 30px;
+    bottom: 35%;
+    left: 8%;
+}
+.banner-label2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner-label h1{
+    color: white;
+    font-weight: bolder;
+   
+    
+}
+.banner-label p{
+    color: white;
+    letter-spacing: 2px;
+}
+.fcontact{
+    justify-content: center;
+  
+     background-color: #f5f5f5;
+     display: flex;
+    margin-top: 10%;
+     height: auto;
+     width: 100%;
+}
+.contact-label{
+    width: 100%;
+    
+}
+.contact-label .label1{
+    margin-left: 20px;
+}
+.label1 input{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.free-label {
+    padding-top: 10%;
+    margin-left: 8%;
+}
+.free-label h1{
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.free-label p{
+    padding-top: 20px;
+    width: 90%;
+    text-align: justify;
+}
+
+
+.free-input{
+    margin-left: 30px;
+  
+   
+}
+.free-input input{
+    gap: 20px;
+    height: 50px;
+    border: 0;
+    margin-left: 15px;
+    margin-top: 6%;
+    width: 40%;
+}
+.input2 input{
+    width: 84%;
+}
+.free-input input::placeholder{
+    margin-left: 5px;
+    padding: 10px;
+}
+ select{
+    gap: 20px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 6%;
+    border: 0px;
+    width: 40%;
+}
+textarea{
+    gap: 20px;
+    height: 90px;
+    margin-left: 15px;
+    margin-top: 6%;
+    border: 0px;
+    width: 84%;
+}
+.input-btn button{
+    margin-left: 15px;
+    width: 84%;
+    margin-top: 10px;
+    border: 0;
+    background-color: #AB7442;
+    height: 35px;
+    color: white;
+}
+
+/* footer */
+.footer{
+    height: 400px;
+    margin-top: 8%;
+    background-color: #353535;
+}
+.f-upper{
+    padding-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7%;
+    padding-left: 5%;
+}
+.f-address h4,i,a{
+color: white;
+}
+.f-address {
+    width: 220px;
+}
+.f-address a{
+    margin-left:10px;
+    padding-top: 0px;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.f-address a:hover{
+    color: #AB7442;
+    letter-spacing: 1.5px;
+    transition: .2s;
+}
+.f-address div{
+    margin-top: 10px;
+}
+.f-icons i{
+  margin-left: 8px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 10px;
+}
+.f-icons i:hover{
+    color: #AB7442;
+    background-color: white;
+    transition: .2s;
+}
+.arrow i{
+  
+ font-size: 12px;  
+}
+.f-letter h4{
+    color: white;
+}
+.f-letter p{
+    color: white;
+    width: 250px;
+    margin-top: 8%;
+}
+.f-input input{
+    height: 60px;
+    width: 100%;
+}
+.f-input input,i::placeholder{
+    padding-left: 10px;
+}
+.f-lower{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.521);
+    width:80%;
+    margin: auto;
+    padding-top: 5%;
+}
+.copy{
+    display: flex;
+    flex-wrap:wrap;
+    padding-top: 2%;
+    justify-content: space-between;
+
+}
+.copy p{
+    color: white;
+    font-size: small;
+}
