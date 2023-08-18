@@ -48,7 +48,54 @@
     </div>
 
     <!-- navbar -->
-    <div class="container-fluid nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light navoo">
+      <div class="container-fluid">
+          <div class="main-1st-section">WooDY</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse main-2nd-section" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item ">
+                      <a class="nav-link active" aria-current="page" id="home-in-nav" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">SERVICE</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">PROJECT</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          PAGES
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Feature</a></li>
+                          <li><a class="dropdown-item" href="#">Free Quote</a></li>
+                          <li><a class="dropdown-item" href="#">Our Team</a></li>
+                          <li><a class="dropdown-item" href="#">Free Quote</a></li>
+                          <li>
+                              <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="main-3rd-section">
+              <a href="">Get A Quote<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+      </div>
+  </nav>
+    <!-- <div class="container-fluid nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light bg nav-boot">
         <div class="container-fluid">
           <a class="navbar-brand wood-label" href="#">
@@ -101,7 +148,7 @@
           </div>
         </div>
       </nav>
-    </div>
+    </div> -->
 
     <div class="banner">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -116,18 +163,42 @@
         <div class="carousel-inner">
           <div class="carousel-item active carosel1">
             <img src="./images/carousel-1.jpg" class="d-block w-100" alt="...">
-            <div class="label1">
-              <h6>WELCOME TO WOODY</h6>
-              <h1>Best Carpenter & <br> Craftsman Services</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deleniti maxime rem, magnam, ad beatae
-                explicabo necessitatibus cupiditate nihil animi illo quaerat, quasi obcaecati.</p>
+            <div class="caro-label1">
+              <div class="label-sub1"><h4>WELCOME TO WOODY</h4></div>
+              <div class="label-sub2"><h1>Best Carpenter & <br> Craftsman Services</h1></div>
+             <div class="label-sub3"> <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p></div>
+             <div class="label-sub4">
+              <span><a href=""><button>Read More</button></a></span>
+              <a href=""><button> Free Quote</button></a>
+        
+            </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item  carosel1">
             <img src="./images/carousel-2.jpg" class="d-block w-100" alt="...">
+            <div class="caro-label1">
+              <div class="label-sub1"><h4>WELCOME TO WOODY</h4></div>
+              <div class="label-sub2"><h1>Best Carpenter & <br> Craftsman Services</h1></div>
+             <div class="label-sub3"> <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p></div>
+             <div class="label-sub4">
+              <span><a href=""><button>Read More</button></a></span>
+              <a href=""><button> Free Quote</button></a>
+        
+            </div>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item  carosel1">
             <img src="./images/carousel-3.jpg" class="d-block w-100" alt="...">
+            <div class="caro-label1">
+              <div class="label-sub1"><h4>WELCOME TO WOODY</h4></div>
+              <div class="label-sub2"><h1>Best Carpenter & <br> Craftsman Services</h1></div>
+             <div class="label-sub3"> <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p></div>
+             <div class="label-sub4">
+              <span><a href=""><button>Read More</button></a></span>
+              <a href=""><button> Free Quote</button></a>
+        
+            </div>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -144,12 +215,17 @@
     </div>
 
     <!-- faded -->
-    <div class="fade-main">
+    <!-- <div class="fade-main">
       <div class="creative">
         <i class="fa fa-user" aria-hidden="true"></i>
+       <div class="creat-label">
         <span>
           <h2>01</h2>
         </span>
+        
+       </div>
+  
+        
       </div>
       <div class="quality">
         <i class="fa fa-check" aria-hidden="true"></i>
@@ -169,7 +245,46 @@
           <h2>04</h2>
         </span>
       </div>
-    </div>
+    </div> -->
+    <div class="mainmain">
+      <div class="iconsm">
+          <div class="section1">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <p>Creative design </p>
+          </div>
+          <div class="number">
+              <h1>01</h1>
+          </div>
+      </div>
+      <div class="iconsm">
+          <div class="section1">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <p>Quality Products </p>
+          </div>
+          <div class="number">
+              <h1>02</h1>
+          </div>
+      </div>
+      <div class="iconsm">
+          <div class="section1">
+              <i class="fa fa-compass" aria-hidden="true"></i>
+              <p>Free Consultation </p>
+          </div>
+          <div class="number">
+              <h1>03</h1>
+          </div>
+      </div>
+      <div class="iconsm">
+          <div class="section1">
+              <i class="fa fa-headphones" aria-hidden="true"></i>
+              <p>Customer Support</p>
+          </div>
+          <div class="number">
+              <h1>04</h1>
+          </div>
+      </div>
+
+  </div>
 
     <!-- about us -->
     <!-- <div class="about-us">
@@ -245,7 +360,7 @@
       <div class="our-cards">
         <div class="row">
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/service-1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">General Carpentary</h5>
@@ -256,7 +371,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/service-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Furniture Manufacturing</h5>
@@ -268,7 +383,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/service-3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Furniture Remodeling</h5>
@@ -282,7 +397,7 @@
         </div>
         <div class="row sec-row">
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/service-4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Wooden Floor</h5>
@@ -293,7 +408,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/service-5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Wooden Furniture</h5>
@@ -305,7 +420,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/service-6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Custom Work</h5>
@@ -320,6 +435,7 @@
       </div>
     </div>
     <!-- why choose us -->
+    
     <!-- 
             <div class="container-fluid why-us">
               <div class="row">
@@ -415,7 +531,7 @@
             </div>
             <div class="why-label1">
               <p>Free</p>
-              <h3>Consultation</h3>
+              <h3>Consultan</h3>
             </div>
           </div>
           <div class="about-ic-label">
@@ -453,7 +569,7 @@
       <div class="project-cards">
         <div class="row">
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/portfolio-1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">General Carpentry</h6>
@@ -463,7 +579,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/portfolio-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">General Carpentry</h6>
@@ -473,19 +589,18 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/portfolio-3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">General Carpentry</h6>
                 <p class="card-text">Wooden Furniture Manufacturing And Remodeling</p>
-
               </div>
             </div>
           </div>
         </div>
         <div class="row sec-project">
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/portfolio-4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">General Carpentry</h6>
@@ -495,7 +610,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/portfolio-5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">General Carpentry</h6>
@@ -505,7 +620,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+            <div class="card wood-card">
               <img src="./images/portfolio-6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">General Carpentry</h6>
@@ -562,14 +677,14 @@
       <div class="team-members">
           <h1>__Team Members__</h1>
           <div class="team-card">
-            <div class="card" style="width: 18rem;">
+            <div class="card wood-card" style="width: 18rem;">
               <img src="./images/team-1.jpg" class="card-img-top" alt="...">
               <div class="card-body team-label">
                 <h5 class="card-title">Full Name</h5>
                 <p class="card-text">Designation</p>
               </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card wood-card" style="width: 18rem;">
               <img src="./images/team-2.jpg" class="card-img-top" alt="...">
               <div class="card-body team-label">
                 <h5 class="card-title">Full Name</h5>
@@ -577,7 +692,7 @@
                 
               </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card wood-card" style="width: 18rem;">
               <img src="./images/team-3.jpg" class="card-img-top" alt="...">
               <div class="card-body team-label">
                 <h5 class="card-title">Full Name</h5>
@@ -585,7 +700,7 @@
                
               </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card wood-card" style="width: 18rem;">
               <img src="./images/team-4.jpg" class="card-img-top" alt="...">
               <div class="card-body team-label">
                 <h5 class="card-title">Full Name</h5>

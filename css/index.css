@@ -74,9 +74,9 @@
     padding: 9px;
 }
                      /* nav bar */
-
+/* 
 .nav-bar ul{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     height: 60px;
     gap: 2px;
     width: 100%;
@@ -117,20 +117,116 @@
 }
 span li a{
     color: white;
+} */
+.navoo{
+    height: 90px;
 }
+.main-1st-section {
+    width: 50%;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 40px;
+    color: #AB7442;
+}
+
+/* links whole section nav  */
+
+#home-in-nav {
+    color: #AB7442;
+}
+
+.main-2nd-section {
+    width: 40%;
+    font-size: 17px;
+    margin-left: 20px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.main-2nd-section a:hover {
+    color: #AB7442 !important;
+}
+
+/* get quote sectiom */
+.main-3rd-section {
+    width: 20%;
+    background-color: #AB7442;
+    padding: 25px;
+    
+}
+
+.main-3rd-section a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-left: 22px;
+    
+}
+
+.main-3rd-section i {
+    margin-left: 9px;
+}
+   /* carosal */
 .carosel1{
    position: relative;
 }
-.label1{
-    position: absolute;
-    background-color: red;
+.carosel1 img{
+    filter: brightness(50%);
 }
-.label1 h6 h1 p{
-    color: white;
-    
+.caro-label1{
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 40%;
+   left: 48%;
+    height: 200px;
 }
+.caro-label1 h4{
+    color: white    
+}
+.caro-label1 h1{
+    color: white   
+}
+.caro-label1 p{
+    color: white    
+}
+.caro-label1 h4{
+    text-align: center;
+    font-weight: 600;
+}
+.caro-label1 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 3%;
+}
+.caro-label1 p{
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .5px;
+    padding-top: 3%;
+}
+.label-sub4{
+    text-align: center;
+    margin-top: 5%;   
+}
+.label-sub4 button{
+ margin-left: 20px;
+ padding: 5px;
+ border: none;
+ width: 150px;
+ height: 50px;
+}
+.label-sub4 span button{
+    color: white;background-color: #AB7442;
+    border: none;
+    width: 155px;
+}
+
+
+
 /* faded */
-.fade-main{
+/* .fade-main{
     height: 300px;
     background-color:white;
     display: flex;
@@ -144,6 +240,8 @@ span li a{
     width: 22%;
     gap: 30%;
 }
+
+
 .creative i{
     font-size: 40px;
     color: #AB7442;
@@ -214,7 +312,48 @@ span li a{
     float: right;
     font-size: 80px;
     color: rgba(128, 128, 128, 0.295);
+} */
+.para-section {
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.section1 i {
+    font-size: 40px;
+    color: #AB7442;
+    background-color: #f4f2f2;
+    height: 80px;
+    padding: 20px;
+}
+
+.number h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(225, 225, 225);
+    margin-left: 23px;
+}
+
+.iconsm {
+    display: flex;
+}
+
+.section1 p {
+    margin-top: 3%;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 20px;
+}
+
+.mainmain {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    height: 300px;
+}
+/* about us */
 .about-us{
     display: flex;
     
@@ -236,6 +375,9 @@ span li a{
     gap: 20px;
     margin-top: 50px;
     margin-left: 30px;
+}
+.about-us{
+    background-color: #f5f5f5;
 }
 .about-label{
     background-color: #f5f5f5;
@@ -308,11 +450,24 @@ span li a{
     justify-content: space-evenly;
     
 }
+.wood-card img{
+    transition: 0.2s;
+    flex: 1;
+}
+.wood-card img:hover{
+    transform: scale(1.05);
+    flex: 1;
+}
 .card-btn{
-    margin-left: 25%;
+    margin-left: 28%;
+    
     border: none;
     color: #AB7442;
     background-color: white;
+}
+.card-btn i{
+    color: #AB7442;
+    font-size: small;
 }
 .sec-row{
     padding-top: 3%;
@@ -339,6 +494,7 @@ span li a{
 }
 .project-navs{
     display: flex;
+    flex-wrap: wrap;
     cursor: pointer;
     padding-top: 3%;
     justify-content: center;
@@ -446,6 +602,7 @@ textarea{
     padding-top: 8%;
     font-weight: bold;
 }
+/* footer */
 .footer{
     height: 400px;
     background-color: #353535;
@@ -482,9 +639,14 @@ color: white;
 .f-icons i{
   margin-left: 8px;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 18px;
   border: 1px solid white;
   padding: 10px;
+}
+.f-icons i:hover{
+    color: #AB7442;
+    background-color: white;
+    transition: .2s;
 }
 .arrow i{
   
@@ -522,3 +684,265 @@ color: white;
     color: white;
     font-size: small;
 }
+@media(min-width:350px) and (max-width:575.98px){
+    .mini-nav{
+        display: none;
+    }
+    .navoo{
+        height: 300px;
+    }
+    .main-1st-section {
+        width: 50%;
+        font-weight: 700;
+        font-size: 32px;
+        
+        margin-left: 70px;
+        color: #AB7442;
+    }
+    
+    /* links whole section nav  */
+    
+    #home-in-nav {
+        color: #AB7442;
+    }
+    
+    .main-2nd-section {
+        width: 40%;
+        font-size: 12px;
+        margin-left: 20px;
+        gap: 20px;
+        font-weight: 600;
+    }
+    
+    .main-2nd-section a:hover {
+        color: #AB7442 !important;
+    }
+    
+    /* get quote sectiom */
+    .main-3rd-section {
+        width: 45%;
+       display: none;
+        height: 30px;
+        padding: 0;
+        
+    }
+    
+   
+    
+    .main-3rd-section i {
+        margin-left: 9px;
+    }
+    
+    .carosel1 img{
+        width: 100%;
+        height: 250px;
+    }
+    .caro-label1 h4{
+    font-weight: 300;
+    width: 200px;
+    
+    }
+
+    .caro-label1 h1{
+        font-size: small;
+        
+    }
+    .caro-label1 p{
+        width: 100%;
+        height: 50px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .label-sub4{
+        width: 100px;
+        display: flex;
+        height: 10px;
+        gap: 10px;
+       
+        
+    }
+    .label-sub4 button{
+        height: 30px;
+        width: 90px;
+        padding: 0;
+        margin-left: 0;
+    }
+    .label-sub4 span button{
+        height: 30px;
+        width: 90px;
+        padding: 0;
+        margin-left: 0;
+    }
+    /* faded */
+ 
+    .mainmain {
+        display: inline;
+
+        justify-content: space-evenly;
+        padding-top: 90px;
+        height: 300px;
+    }
+    .number h1 {
+        font-weight: 600;
+        font-size: 70px;
+        float: right;
+        color: rgb(225, 225, 225);
+        margin-left: 80px;
+    }
+    .about-us{
+        display: inline;
+        
+        width: 100%;
+      
+    }
+    
+.about-ic-main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 0 !important;
+    justify-content: center;
+    width: 100%;
+}
+.about-img img{
+    height: 100%;
+    width: 100%;
+}
+.about-ic-label{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.about-label{
+    background-color: #f5f5f5;
+    width: 100%;   
+    height: 450px; 
+    
+}
+.about-label h1{
+    margin-top: 20%;
+    margin-left: 5%;
+    text-align: center;
+ 
+}
+.para{
+    width: 530px;
+    margin-left: 30px;
+}
+.about-label p{
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 2%;
+    width: 100%;
+    padding-right: 50px;
+    font-size: 12px;
+}
+.about-icon i{
+    font-size: 30px;
+   
+   margin-top: 0;
+    color: #AB7442;
+    background-color:white ;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+  
+}
+
+.about-btn{
+    margin-left: 100px;
+    margin-top: 75px;
+
+  
+}
+/* our services */
+.our-service{
+   
+}
+.our-cards{
+   margin-top: 60px;
+    gap: 20px;   
+    
+}
+.wood-card{
+    margin-top: 50px;
+}
+    /* why us */
+
+    .why-us{
+        height: 800px;
+    }
+    .why-us .about-ic-main{
+        height: 10px;
+    }
+    /* our projects */
+    .our-projects{
+        margin-top: 50px;
+    }
+    .project-navs p{
+        font-size: smaller;
+        padding-top: 5px;
+    }
+
+    /* free quote */
+    .free-quote{
+        margin-top: 70%;
+        background-color: #f5f5f5;
+        display: inline;
+        height: 600px;
+        flex-wrap: wrap;
+    }
+    .free-quote img{
+        width: 100%;
+        margin-top: 20%;
+        height: 300px;
+    }
+ 
+    .free-label p{
+        padding-top: 20px;
+        font-size: small;
+        width: 300px;
+        
+    }
+    
+.free-input{
+   
+  
+   
+}
+.free-input input{
+    gap: 20px;
+    height: 50px;
+    border: 0;
+    margin-left: 15px;
+    margin-top: 6%;
+    width: 90%;
+}
+select{
+    width: 90%;
+}
+    /* footer */
+    .footer{
+        height: auto;
+        background-color: #353535;
+    }
+    .f-upper{
+        margin-left:30px ;
+    }
+    .f-address{
+        margin-top: 50px;
+    }
+    .newsletter{
+        margin-top: 30px;
+    }
+    .f-input input{
+        height: 50px;
+    }
+    .copy p{
+        margin: auto;
+    }
+    }
+   
+
